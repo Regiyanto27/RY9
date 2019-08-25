@@ -1,0 +1,353 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: Roboto-black;
+  src: url("./../fonts/Roboto-black.ttf"); }
+@font-face {
+  font-family: Roboto-bold;
+  src: url("./../fonts/Roboto-bold.ttf"); }
+@font-face {
+  font-family: Proxima-reguler;
+  src: url("./../fonts/ProximaNovaSoft-Regular.otf"); }
+@font-face {
+  font-family: Proxima-bold;
+  src: url("./../fonts/ProximaNovaSoft-Bold.otf"); }
+@font-face {
+  font-family: Roboto-light;
+  src: url("./../fonts/Roboto-light.ttf"); }
+@font-face {
+  font-family: Roboto-reguler;
+  src: url("./../fonts/Roboto-Regular.ttf"); }
+.header {
+  background-image: url("./../img/bg-header.png");
+  background-size: cover;
+  height: 797px; }
+
+.btn-masuk {
+  color: #ff0000;
+  width: 100px;
+  height: 33px;
+  box-shadow: 0px 10px 33.3px 1.8px rgba(255, 0, 0, 0.05);
+  background-color: #ffffff;
+  font-family: Proxima-bold;
+  margin-right: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  border: solid white; }
+
+.btn-daftar {
+  color: #ffffff;
+  width: 100px;
+  height: 33px;
+  box-shadow: 0px 10px 33.3px 1.8px rgba(255, 0, 0, 0.05);
+  background-color: transparent;
+  font-family: Proxima-bold;
+  margin-right: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  border: solid white; }
+
+.btn-lain {
+  color: #ff0000;
+  width: 100px;
+  height: 33px;
+  box-shadow: 0px 10px 33.3px 1.8px rgba(255, 0, 0, 0.05);
+  background-color: #ffffff;
+  font-family: Proxima-bold;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  border: solid white;
+  margin-top: 30px;
+  position: absolute; }
+
+.text_introduction {
+  margin-top: 200px;
+  font-family: Roboto-reguler;
+  color: #ffffff;
+  position: relative;
+  font-size: 25px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: 0.63px;
+  text-align: left; }
+
+.gambar {
+  margin-top: 50px; }
+
+#desk {
+  font-family: Proxima-reguler;
+  width: 380px;
+  height: 110px;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  text-align: left; }
+
+.content {
+  width: 1105px;
+  height: 578px;
+  box-shadow: 0px 15px 42.8px 2.3px rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  margin-top: 100px; }
+
+.keuntungan {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2;
+  letter-spacing: 1.2px;
+  color: #565e75; }
+
+.text {
+  text-align: center;
+  padding-top: 57px; }
+
+.kotak {
+  width: 59px;
+  height: 4px;
+  background-color: #ff0000;
+  margin: auto;
+  transition: width 2s; }
+  .kotak:hover, .kotak:focus, .kotak:active {
+    width: 100px; }
+
+.join {
+  line-height: 2.29;
+  font-size: 14px;
+  letter-spacing: 1.05px;
+  color: #abb5cd; }
+
+.icon1 {
+  width: 113px; }
+
+.text1 {
+  font-family: Roboto-bold;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.9;
+  letter-spacing: 1.58px;
+  color: #000f3a;
+  margin-top: 55px; }
+
+.icon {
+  font-family: Proxima-reguler;
+  font-size: 11.5px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.65;
+  letter-spacing: 0.86px;
+  text-align: center;
+  color: #abb5cd;
+  margin: 40px auto; }
+
+.bg1 {
+  width: 100%;
+  margin-top: 68px;
+  height: 485px;
+  background-image: url("./../img/bg-testi.jpg");
+  background-size: cover; }
+
+.apa {
+  line-height: 2.29;
+  font-size: 14px;
+  letter-spacing: 1.05px;
+  color: #abb5cd; }
+
+.text2 {
+  text-align: left;
+  padding-top: 213px;
+  line-height: 485px; }
+
+.kotak2 {
+  width: 59px;
+  height: 4px;
+  background-color: #ff0000; }
+
+.bg4 {
+  background-size: cover;
+  background-image: url("./../img/bg-daftar-agen.png");
+  height: 1013px; }
+
+.prov {
+  width: 70px;
+  height: 70px; }
+  .prov:hover {
+    width: 80px;
+    height: 80px;
+    box-shadow: 10px, 10px, 10,  #abb5cd; }
+
+.prov1 {
+  float: right;
+  margin-top: 119px; }
+
+.kota {
+  line-height: 2.2;
+  font-family: Roboto-light; }
+
+.text4 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.71;
+  letter-spacing: 1.4px;
+  color: #565e75; }
+
+.text3 {
+  float: right;
+  display: inline-block;
+  position: absolute;
+  clear: left;
+  margin-left: 25px;
+  width: 193px;
+  height: 53px;
+  font-family: Roboto-reguler;
+  font-size: 10px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #abb5cd; }
+
+.prov2 {
+  float: right; }
+
+.huruf {
+  width: 117px;
+  height: 15px;
+  font-family: Roboto-reguler;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.67;
+  letter-spacing: 7px;
+  text-align: left;
+  color: #abb5cd;
+  margin-top: 36px; }
+  .huruf span {
+    font-weight: bold;
+    color: #ff0000; }
+
+.footer {
+  height: 74px;
+  background-color: #e40f13; }
+
+.footer1 {
+  width: 217px;
+  height: 15px;
+  opacity: 0.8;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.5;
+  letter-spacing: 0.7px;
+  text-align: center;
+  color: #ffffff;
+  float: right;
+  vertical-align: middle;
+  line-height: 74px; }
+  .footer1 span {
+    font-weight: 300;
+    color: #ffffff; }
+
+.komen {
+  width: 298px;
+  height: 227px;
+  box-shadow: 0px 15px 47.5px 2.5px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  margin-top: 129px;
+  margin-left: 63px; }
+
+.komen1 {
+  width: 298px;
+  height: 227px;
+  box-shadow: 0px 15px 47.5px 2.5px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  margin-top: 129px;
+  margin-left: 36px; }
+
+.kutip {
+  margin-left: 21px; }
+
+.komen2 {
+  width: 250px;
+  height: 57px;
+  font-family: Proxima-reguler;
+  font-size: 14.5px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.48;
+  letter-spacing: 1.45px;
+  text-align: center;
+  color: #828795;
+  margin: 10px auto; }
+
+.garis {
+  width: 250px;
+  height: 2px;
+  background-color: #f2f6f7;
+  margin: auto;
+  margin-top: 38px;
+  margin-bottom: 0px; }
+
+.manusia {
+  margin-left: 5px;
+  margin-top: 20px; }
+
+.text5 {
+  display: inline-block;
+  margin-left: 13px;
+  line-height: 5px;
+  position: absolute; }
+
+.text6 {
+  font-family: Roboto-light;
+  font-size: 13px;
+  letter-spacing: 1.3px;
+  text-align: left;
+  color: #abb5cd; }
+
+.kota1 {
+  font-size: 10.5px;
+  letter-spacing: 1.05px;
+  color: var(--slate);
+  font-family: Roboto-light; }
+
+.bintang {
+  background-image: url("./../img/quotes/bintang1.png");
+  width: 13px;
+  height: 15px;
+  float: right;
+  padding-left: 80px;
+  margin-right: 20px;
+  margin-top: 32px; }
+
+.back {
+  background-image: url("./../img/quotes/back.png");
+  width: 30px;
+  height: 28px;
+  float: right;
+  margin-right: 770px;
+  margin-top: 34px; }
+
+.next {
+  background-image: url("./../img/quotes/next.png");
+  width: 32px;
+  height: 30px;
+  margin-left: 54px; }
+
+/*# sourceMappingURL=style.css.map */

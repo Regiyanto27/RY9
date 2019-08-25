@@ -1,0 +1,124 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.header{
+	@extend %background1;
+}
+.btn-masuk{
+	@extend %btn-masuk;
+}
+.btn-daftar{
+	@extend %btn-daftar;
+}
+.btn-lain{
+	@extend %btn-lain;
+}
+.text_introduction{
+	@extend %text_intro;
+}
+.gambar{
+	@extend %gambar;
+}
+#desk{
+	@extend %desk;
+}
+.content{
+	@extend %content;
+}
+.keuntungan{
+	@extend  %keuntungan;
+}
+.text{
+	@extend  %text;
+}
+.kotak{
+	@extend  %kotak;
+}
+.join{
+	@extend  %join;
+}
+.icon1{
+	@extend  %icon1;
+}
+.text1{
+	@extend  %text1;
+}
+.bg1{
+	@extend  %bg1;
+}
+.apa{
+	@extend  %apa;
+}
+.text2{
+	@extend  %text2;
+}
+.kotak2{
+	@extend  %kotak2;
+}
+.bg4{
+	@extend %bg4;
+}
+.prov{
+	@extend %prov;
+}
+.prov1{
+	@extend %prov1;
+}
+.text4{
+	@extend  %text4;
+}
+.kota{
+	@extend  %kota;
+}
+.text3{
+	@extend %text3;
+}
+.prov2{
+	@extend %prov2;
+}
+.huruf{
+	@extend  .huruf;
+}
+.footer{
+	@extend  %footer;
+}
+.footer1{
+	@extend  .footer1;
+}
+.komen{
+	@extend %komen;
+}
+.komen1{
+	@extend %komen1;
+}
+.kutip{
+	@extend  %kutip;
+}
+.komen2{
+	@extend  %komen2;
+}
+.garis{
+	@extend %garis;
+}
+.manusia{
+	@extend  %manusia;
+}
+.text5{
+	@extend  %text5;
+}
+.text6{
+	@extend  %text6;
+}
+.kota1{
+	@extend  %kota1;
+}
+.bintang{
+	@extend  %bintang;
+}
+.back{
+	@extend %back;
+}
+.next{
+	@extend %next;
+}

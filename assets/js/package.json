@@ -1,0 +1,19 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "buat",
+  "main": "index.js",
+  "scripts": {
+    "test": "2.7",
+    "scss": "node-sass -watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "2.7"
+  },
+  "keywords": [
+    "regi"
+  ],
+  "author": "regi",
+  "license": "ISC"
+}
